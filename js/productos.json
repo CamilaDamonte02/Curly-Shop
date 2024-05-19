@@ -24,7 +24,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/hair Food/Goji Mascarilla de reparación 1 minuto.png",
+      "imagen":"../assets/hair food/Goji Mascarilla de reparación 1 minuto.png",
       "codigo":4,
       "nombre":"GOJI MASCARILLA DE REPARACIÓN 1 MINUTO",
       "precio":311,
@@ -32,7 +32,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/hair Food/Hair Food Aguacate 350ml.jpg",
+      "imagen":"../assets/hair food/Hair Food Aguacate 350ml.jpg",
       "codigo":5,
       "nombre":"HAIR FOOD AGUACATE 350ML",
       "precio":311,
@@ -40,7 +40,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/hair Food/Hair Food Banana 350ml.jpg",
+      "imagen":"../assets/hair food/Hair Food Banana 350ml.jpg",
       "codigo":6,
       "nombre":"HAIR FOOD BANANA 350ML",
       "precio":311,
