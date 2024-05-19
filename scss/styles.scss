@@ -1,0 +1,450 @@
+/* Variables */
+$fuentePrincipal: 'Josefin Sans', sans-serif;
+$fuenteSecundario: 'Roboto', sans-serif;
+$colorPrincipal: #FFC8EA;
+$colorSecundario: #FFF18F;
+$colorTerceario: #FFE7D7;
+
+/* pagina resultados */
+body{
+    font-family: $fuentePrincipal;
+}
+/*Reseteo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    nav{
+        margin: 1vw 0;
+        background-color: $colorPrincipal;
+        width: 85%;
+        height: 3.2vw;
+        border-radius: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            display: flex;
+            img{
+                width: 5vw;
+                height: 5vw;
+            }
+            h2{
+                font-size: 3vw;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .enlaceTienda{
+            margin-left: 70%;
+            a{
+                font-size: 2vw;
+                font-family: $fuentePrincipal;
+                text-decoration: none;
+            }
+        }
+    }
+    .carritoNavegador{
+        background-color: $colorSecundario;
+    }
+    #carrito{
+        width: 4vw;
+        height: 4vw;
+        margin-top: 0.5vw;
+        img:hover{
+            cursor: pointer;
+        }
+    }
+    .volver{
+        width: 4vw;
+        height: 4vw;
+
+        margin-top: 0.5vw;
+    }
+}
+
+#buscador{
+    width: 80vw;
+    height: 2vw;
+    border-radius: 20px ;
+    border-color: black;
+    margin-top: 2vw;
+    padding: 1vw;
+    font-size: 1vw;
+    font-family: $fuenteSecundario;
+}
+
+.Portada {
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-family: $fuentePrincipal;
+        text-align: center;
+        font-size: 3vw;
+    }
+    img{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+.Tienda{
+    .subtitulo{
+        margin: 1vw 0;
+        background-color: $colorSecundario;
+        width: 85%;
+        height: 3.2vw;
+        border-radius: 25px;
+        display: flex;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vw;
+        margin-top: 1vw;
+    }
+    p{
+        display: flex;
+        margin: 0 25% 0 25%;
+        flex-direction: column;
+        font-family: $fuenteSecundario;
+        font-size: 1vw;
+        span{
+            font-weight: bold;
+            margin-top: 1vw;
+        }
+    }
+}  
+
+.Tienda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    .producto{
+        border-radius: 1vw;
+        border: gray  0.1vw solid;
+        width: 15vw;
+        height: 17vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 4vw;
+        box-shadow: 4px 4px 8px gray;
+        img{
+            height: 8vw;
+            width: auto;
+            margin: 1vw 1vw 0vw 1vw;
+        }
+        h3{
+            text-align: center;
+            margin: 1vw;
+            font-size: 1vw ;
+        }
+        .botonComprar {
+            border-radius: 1vw;
+            background-color: $colorPrincipal;
+            width: 8vw;
+            height: 2vw;
+            border: 1px solid gray; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: black;
+            font-family: $fuenteSecundario;
+            font-size: 1vw;
+            padding: 0.5vw;
+            margin: 0;
+        }
+        .botonComprar:hover{
+            background-color: $colorSecundario;
+        }
+    }
+}
+}
+
+#productosCarrito{
+    margin: 2vw 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw;    
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .productoCarrito{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: $colorPrincipal;
+            height: 8vw;
+            width: 80vw;
+            margin: 0vw 2vw 3vw 0vw;
+            border-radius: 20px;
+            div{
+                margin-right: 7vw;
+            }
+            div img{
+                width: auto;
+                height: 6vw;
+                border-radius: 20px;
+                margin-left: 1vw;
+            }
+            .cantidadProductos{
+                display: flex;
+                flex-direction: row;
+                margin-left: 0vw;
+            }
+            .cantidadProductos .mas:hover, .cantidadProductos .menos:hover{
+                cursor: pointer;
+            }
+        }
+        .eliminarDelCarrito{
+            width: 2vw;
+            height: 2vw;
+            margin-bottom: 3vw;
+        }
+        .eliminarDelCarrito:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.TotalCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 12vw;
+    margin-top: 3vw;
+    font-size: 3vw;
+    button{
+        color: black;
+        background-color: $colorSecundario;
+        border-radius: 20px;
+        width: 10vw;
+        border: 0px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    #precioTotal{
+        margin-left: 2vw;
+        padding-right: 4vw;
+    }
+    h3{
+        margin-right: 1vw;
+    }
+}
+
+#error{
+    background-color: rgb(213, 56, 56);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    height: 20vw;
+    margin: 5vw 100%;
+    img{
+        width: 10vw;
+        margin-bottom: 1vw;
+    }
+    .textoError{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5vw;
+        h3{
+            margin-bottom: 1vw;
+        }
+    }
+}
+
+#productosEmpleado{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3vw;
+    margin: 3vw;
+    .productoEditar{
+        width: 25vw;
+        height: 30vw;
+        border-radius: 20px;
+        border: black 0.05vw solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+        align-items: center;
+        position: relative;
+        .cardProductoEditar{
+            position: relative;
+            .imagenEditar{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                .imagenProducto img{
+                    height: 9vw;
+                }
+                .imagenArriba{
+                    position: absolute;
+                    top: 0vw;
+                    left: -2vw;
+                }
+            }
+            .nombreEditar{
+                display: flex;
+                justify-content: center;
+                position: relative;
+                margin: 2vw 0vw 3vw 0vw;
+                .nombreProducto{
+                    text-align: center;
+                    width: 15vw;
+                    font-size: 1vw;
+                }
+                .imagenArriba{
+                    position: absolute;
+                    top: -2.5vw;
+                    left: -2vw;
+                }
+            }
+            .stockEditar{
+                position: relative;
+                .stockProducto{
+                    background-color: $colorPrincipal;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    border-radius: 20px;
+                    height: 4vw;
+                    align-items: center;
+                    font-size: 1.5vw;
+                    .circuloStock{
+                        background-color: white;
+                        border-radius: 50%;
+                        width: 3vw;
+                        height: 3vw;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                .imagenArriba{
+                    position: absolute;
+                    top: -1.5vw;
+                    left: -2vw;
+                }
+            }
+            .precioEditar{
+                display: flex;
+                justify-content: center;
+                position: relative;
+                margin: 2vw 0vw 3vw 0vw;
+                font-size: 1.5vw;
+                .precioProducto{
+                    width: 15vw;
+                    display: flex;
+                    justify-content: center;
+                }
+                .imagenArriba{
+                    position: absolute;
+                    top: -2.5vw;
+                    left: -2vw;
+                } 
+            }
+        }
+        .basura{
+            position: absolute;
+            top: -1vw;
+            right: -1vw;
+            img{
+                width: 3vw;
+            }
+        }
+        .icono{
+            width: 2.5vw;
+        }
+    }
+}
+
+footer{
+    margin: 0vw 2vw;
+    div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 2vw 5vw;
+    }
+}
+
+.cartelInicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15vw 10vw;
+    margin-top: 10vw;
+    .inicial{
+        background-color: $colorPrincipal;
+        border-radius: 30px;
+        width: 20vw;
+        height: 12vw;
+        padding: 1vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .slogan{
+            text-align: center;
+        }
+        .botones{
+            display: flex;
+            flex-direction: row;
+            gap: 2vw;
+        }
+        .botones button{
+            background-color: white;
+            border-radius: 20px;
+            padding: 0.5vw 1vw;
+            border: solid gray 0vw;
+        }
+        .botones button:hover{
+            background-color: $colorSecundario;
+            border: 0vw;
+        }
+    }
+ 
+}
+.agregarProducto{
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    #agregarProducto{
+        background-color: $colorSecundario;
+        width: 15vw;
+        height: 5vw;
+        border-radius:50px;
+        font-size: 1.5vw;
+        border: 0.2vw $colorSecundario solid;
+        font-family: $fuentePrincipal;
+        font-weight: bolder;
+    }
+    #agregarProducto:hover{
+        border: $colorPrincipal 0.2vw solid;
+        background-color: $colorPrincipal;
+    }
+}

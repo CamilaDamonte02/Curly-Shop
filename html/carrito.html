@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset=”UTF-8″ />
+    <title>Curly - Carrito</title>
+
+    <!-- Fuentes --><!-- font-family: 'Josefin Sans', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+
+    <!-- Fuentes --><!-- font-family: 'Roboto', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../assets/icono.png" />
+
+    <!-- Mi hoja de estilos -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- link JS -->
+    <script src="../js/Variables.js"></script>
+    <script src="../js/cliente.js"></script>
+    <script defer src="../js/carrito.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.min.css" rel="stylesheet">
+
+    
+
+</head>
+<body> 
+        <header>
+            <nav class="carritoNavegador">
+                <div class="logo">
+                    <img src="../assets/logo.png" alt="Pelo largo con rulos">
+                    <h2>Curly</h2>
+                </div>
+            </nav>
+            <a href="cliente.html"><img class="volver" src="../assets/flecha izquierda.png" alt="Icono de carrito de compras"></a>
+        </header>
+            
+        <main>
+            <div id="productosCarrito">
+                
+            </div>
+            <div class="TotalCarrito">
+                <h3>Subtotal</h3>
+                <h3 id="precioTotal">$</h3>
+                <button id="pagar">Pagar</button>
+            </div>
+        </main>
+    </body>
+</html>
