@@ -23,7 +23,7 @@ botonIrAlCarrito.addEventListener('mousemove', () =>{
 
 botonIrAlCarrito.addEventListener('click', () =>{
     if (carrito.length > 0){
-        location.href = '../html/Carrito.html';
+        location.href = '../html/carrito.html';
     }else{
         Swal.fire({
             title: "Carrito Vacío",
