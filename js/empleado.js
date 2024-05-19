@@ -1,13 +1,13 @@
 const productosEmpleadosDOM = document.getElementById('productosEmpleado')
 const botonAgregarProducto = document.getElementById('agregarProducto')
-const rutaJSON = '../JS/productos.json'
+const rutaJSON = '../js/productos.json'
 
 
 botonAgregarProducto.addEventListener('click', async () => {
     let nombreProducto = await obtenerTexto()
     let precioProducto = await obtenerNumero("Ingresa el precio", "Por favor ingresa el precio del producto:");
     let stockProducto= await obtenerNumero("Ingresa la cantidad de stock", "Por favor ingresa la cantidad de stock:");
-    let productoNuevo = new Producto("../ASSETS/imagen.png", productos.length+1, nombreProducto.toUpperCase(), precioProducto, stockProducto)
+    let productoNuevo = new Producto("../assets/imagen.png", productos.length+1, nombreProducto.toUpperCase(), precioProducto, stockProducto)
     productos.push(productoNuevo)
     cargarProductoEditar()
 });
@@ -83,7 +83,7 @@ function mostrarProductoEditar(producto){
                             <h3>${producto.nombre}</h3>
                         </div>
                         <div class="imagenArriba">
-                            <img class="icono editarNombre" id="editarNombre${producto.codigo}" src="../ASSETS/editar.png" alt="">
+                            <img class="icono editarNombre" id="editarNombre${producto.codigo}" src="../assets/editar.png" alt="">
                         </div>
                     </div>
                     <div class="precioEditar">
@@ -102,12 +102,12 @@ function mostrarProductoEditar(producto){
                             </div>
                         </div>
                         <div class="imagenArriba">
-                            <img class="icono editarStock" id="editarStock${producto.codigo}" src="../ASSETS/editar.png" alt="">
+                            <img class="icono editarStock" id="editarStock${producto.codigo}" src="../assets/editar.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="basura">
-                    <img class="icono eliminarProducto" id="eliminar${producto.codigo}" src="../ASSETS/basura.png" alt="">
+                    <img class="icono eliminarProducto" id="eliminar${producto.codigo}" src="../assets/basura.png" alt="">
                 </div>
             </div>`
 }
@@ -129,7 +129,7 @@ function cargarProductoEditar(){
 function mostrarError(error){
     return `<div id="error">
                 <div>
-                    <img src="../ASSETS/cruz.png" alt="Error">
+                    <img src="../assets/cruz.png" alt="Error">
                 </div>
                 <div class="textoError">
                     <h3>Error al obtener productos</h3>

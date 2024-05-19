@@ -1,6 +1,6 @@
 [
     {
-      "imagen":"../ASSETS/Acondicionador/Acondicionador Hair Food Manteca de Cacao.jpg",
+      "imagen":"../assets/acondicionador/Acondicionador Hair Food Manteca de Cacao.jpg",
       "codigo":1,
       "nombre":"ACONDICIONADOR HAIR FOOD MANTECA DE CACAO",
       "precio":336,
@@ -8,7 +8,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../ASSETS/Acondicionador/Hair Food Acondicionador Banana.png",
+      "imagen":"../assets/acondicionador/Hair Food Acondicionador Banana.png",
       "codigo":2,
       "nombre":"HAIR FOOD ACONDICIONADOR BANANA",
       "precio":336,
@@ -16,7 +16,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../ASSETS/Acondicionador/Hair Food Acondicionador Sandía.jpg",
+      "imagen":"../assets/acondicionador/Hair Food Acondicionador Sandía.jpg",
       "codigo":3,
       "nombre":"HAIR FOOD ACONDICIONADOR SANDÍA",
       "precio":336,
@@ -24,7 +24,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../ASSETS/HairFood/Goji Mascarilla de reparación 1 minuto.png",
+      "imagen":"../assets/HairFood/Goji Mascarilla de reparación 1 minuto.png",
       "codigo":4,
       "nombre":"GOJI MASCARILLA DE REPARACIÓN 1 MINUTO",
       "precio":311,
@@ -32,7 +32,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../ASSETS/HairFood/Hair Food Aguacate 350ml.jpg",
+      "imagen":"../assets/HairFood/Hair Food Aguacate 350ml.jpg",
       "codigo":5,
       "nombre":"HAIR FOOD AGUACATE 350ML",
       "precio":311,
@@ -40,7 +40,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../ASSETS/HairFood/Hair Food Banana 350ml.jpg",
+      "imagen":"../assets/HairFood/Hair Food Banana 350ml.jpg",
       "codigo":6,
       "nombre":"HAIR FOOD BANANA 350ML",
       "precio":311,
@@ -48,7 +48,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../ASSETS/Shampoo/Hair Food Palta Shampoo.jpg",
+      "imagen":"../assets/Shampoo/Hair Food Palta Shampoo.jpg",
       "codigo":7,
       "nombre":"HAIR FOOD PALTA SHAMPOO",
       "precio":357,
@@ -56,7 +56,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../ASSETS/Shampoo/Hair Food Shampoo Banana.png",
+      "imagen":"../assets/Shampoo/Hair Food Shampoo Banana.png",
       "codigo":8,
       "nombre":"HAIR FOOD SHAMPOO BANANA",
       "precio":357,
@@ -64,7 +64,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../ASSETS/Shampoo/Hair Food Shampoo Coco.png",
+      "imagen":"../assets/Shampoo/Hair Food Shampoo Coco.png",
       "codigo":9,
       "nombre":"HAIR FOOD SHAMPOO COCO",
       "precio":357,
@@ -72,7 +72,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../ASSETS/Shampoo Solido/Shampoo Solido Fructis Hair Food Sandía.webp",
+      "imagen":"../assets/Shampoo Solido/Shampoo Solido Fructis Hair Food Sandía.webp",
       "codigo":10,
       "nombre":"SHAMPOO SOLIDO FRUCTIS HAIR FOOD SANDÍA",
       "precio":449,
@@ -80,7 +80,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../ASSETS/Shampoo Solido/Shampoo Solido Fructis Hair Food Aloe Vera.webp",
+      "imagen":"../assets/Shampoo Solido/Shampoo Solido Fructis Hair Food Aloe Vera.webp",
       "codigo":11,
       "nombre":"SHAMPOO SOLIDO FRUCTIS HAIR FOOD ALOE VERA",
       "precio":449,

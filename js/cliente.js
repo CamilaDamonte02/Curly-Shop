@@ -4,7 +4,7 @@ const botonIrAlCarrito = document.getElementById('carrito');
 
 const inputBuscar = document.querySelector('input[type=search]');
 
-const rutaJSON = '../JS/productos.json';
+const rutaJSON = '../js/productos.json';
 
 inputBuscar.addEventListener('keypress', (e) => {
     if (e.key === 'Enter' && inputBuscar.value.trim() !== ''){
@@ -23,7 +23,7 @@ botonIrAlCarrito.addEventListener('mousemove', () =>{
 
 botonIrAlCarrito.addEventListener('click', () =>{
     if (carrito.length > 0){
-        location.href = '../HTML/Carrito.html';
+        location.href = '../html/Carrito.html';
     }else{
         Swal.fire({
             title: "Carrito Vacío",
@@ -93,7 +93,7 @@ function mostrarProducto(producto) {
 function errorSinResultados(){
     return `<div id="error">
                 <div>
-                    <img src="../ASSETS/Sin resultados.png" alt="No hay resultados">
+                    <img src="../assets/Sin resultados.png" alt="No hay resultados">
                 </div>
                 <div class="textoError">
                     <h3>No se han encontrado resultados de tu busqueda</h3>
@@ -105,7 +105,7 @@ function errorSinResultados(){
 function mostrarError(error){
     return `<div id="error">
                 <div>
-                    <img src="../ASSETS/cruz.png" alt="Error">
+                    <img src="../assets/cruz.png" alt="Error">
                 </div>
                 <div class="textoError">
                     <h3>Error al obtener productos</h3>

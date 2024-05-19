@@ -1,5 +1,5 @@
 const carritoDom = document.getElementById('productosCarrito');
-const gifCargando = '<img src="../ASSETS/cargando.gif">';
+const gifCargando = '<img src="../assets/cargando.gif">';
 
 function mostrarProductoCarrito(producto) {
     return `<div>
