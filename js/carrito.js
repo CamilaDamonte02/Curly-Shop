@@ -125,7 +125,7 @@ function cargarProductosCarrito(array) {
         if (producto.cantidadCarrito > 0){
             carritoDom.innerHTML += mostrarProductoCarrito(producto);
         }else{
-            window.location.href = "../html/cliente.html"
+            location.href = '../html/cliente.html'
         }
         activarClickEnBotonesSumar();
         activarClickEnBotonesRestar();
