@@ -24,7 +24,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/HairFood/Goji Mascarilla de reparación 1 minuto.png",
+      "imagen":"../assets/hair Food/Goji Mascarilla de reparación 1 minuto.png",
       "codigo":4,
       "nombre":"GOJI MASCARILLA DE REPARACIÓN 1 MINUTO",
       "precio":311,
@@ -32,7 +32,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/HairFood/Hair Food Aguacate 350ml.jpg",
+      "imagen":"../assets/hair Food/Hair Food Aguacate 350ml.jpg",
       "codigo":5,
       "nombre":"HAIR FOOD AGUACATE 350ML",
       "precio":311,
@@ -40,7 +40,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/HairFood/Hair Food Banana 350ml.jpg",
+      "imagen":"../assets/hair Food/Hair Food Banana 350ml.jpg",
       "codigo":6,
       "nombre":"HAIR FOOD BANANA 350ML",
       "precio":311,
@@ -48,7 +48,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/Shampoo/Hair Food Palta Shampoo.jpg",
+      "imagen":"../assets/shampoo/Hair Food Palta Shampoo.jpg",
       "codigo":7,
       "nombre":"HAIR FOOD PALTA SHAMPOO",
       "precio":357,
@@ -56,7 +56,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/Shampoo/Hair Food Shampoo Banana.png",
+      "imagen":"../assets/shampoo/Hair Food Shampoo Banana.png",
       "codigo":8,
       "nombre":"HAIR FOOD SHAMPOO BANANA",
       "precio":357,
@@ -64,7 +64,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/Shampoo/Hair Food Shampoo Coco.png",
+      "imagen":"../assets/shampoo/Hair Food Shampoo Coco.png",
       "codigo":9,
       "nombre":"HAIR FOOD SHAMPOO COCO",
       "precio":357,
@@ -72,7 +72,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/Shampoo Solido/Shampoo Solido Fructis Hair Food Sandía.webp",
+      "imagen":"../assets/shampoo solido/Shampoo Solido Fructis Hair Food Sandía.webp",
       "codigo":10,
       "nombre":"SHAMPOO SOLIDO FRUCTIS HAIR FOOD SANDÍA",
       "precio":449,
@@ -80,7 +80,7 @@
       "cantidadCarrito":0
     },
     {
-      "imagen":"../assets/Shampoo Solido/Shampoo Solido Fructis Hair Food Aloe Vera.webp",
+      "imagen":"../assets/shampoo solido/Shampoo Solido Fructis Hair Food Aloe Vera.webp",
       "codigo":11,
       "nombre":"SHAMPOO SOLIDO FRUCTIS HAIR FOOD ALOE VERA",
       "precio":449,
