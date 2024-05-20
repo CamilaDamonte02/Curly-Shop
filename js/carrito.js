@@ -4,7 +4,7 @@ const gifCargando = '<img src="../assets/cargando.gif">';
 function mostrarProductoCarrito(producto) {
     return `<div>
                 <div class="productoCarrito">
-                    <div><img src="../${producto.imagen}" alt=""></div>
+                    <div><img src="${producto.imagen}" alt=""></div>
                     <div><h4>${producto.nombre}</h4></div>
                     <div class="cantidadProductos">
                         <div class="menos" id="menos${producto.codigo}" class="mas"><h4>-</h4></div>
