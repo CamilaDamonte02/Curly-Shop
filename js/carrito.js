@@ -137,7 +137,9 @@ function cargarProductosCarrito(array) {
 
 const datosCarrito = localStorage.getItem('miCarrito');
 const datosProductos = localStorage.getItem('misProductos');
-productos = JSON.parse(datosProductos);
-carrito = JSON.parse(datosCarrito);
+carrito = datosCarrito ? JSON.parse(datosCarrito) : [];
+productos = datosProductos ? JSON.parse(datosProductos) : [];
+console.table(carrito)
 cargarProductosCarrito(carrito);
+
 
