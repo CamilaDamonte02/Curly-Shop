@@ -91,7 +91,7 @@ function mostrarProductoEditar(producto){
                             <h3 class="precioProducto">$${producto.precio}</h3>
                         </div>
                         <div class="imagenArriba">
-                            <img class="icono editarPrecio" id="editarPrecio${producto.codigo}" src="../ASSETS/editar.png" alt="">
+                            <img class="icono editarPrecio" id="editarPrecio${producto.codigo}" src="../assets/editar.png" alt="">
                         </div>
                     </div>
                     <div class="stockEditar">
