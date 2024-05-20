@@ -15,7 +15,7 @@ function mostrarProductoCarrito(producto) {
                     </div>
                     <div><h4>$${producto.precio*producto.cantidadCarrito}</h4></div>
                 </div>
-                <img id="eliminar${producto.codigo}" class="eliminarDelCarrito" src="../ASSETS/Cruz.png" alt="">
+                <img id="eliminar${producto.codigo}" class="eliminarDelCarrito" src="../assets/cruz.png" alt="">
             </div>`;
 }
 
