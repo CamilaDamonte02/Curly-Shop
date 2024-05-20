@@ -401,15 +401,19 @@ footer{
     .inicial{
         background-color: $colorPrincipal;
         border-radius: 30px;
-        width: 20vw;
-        height: 12vw;
+        width: 25vw;
+        height: 15vw;
         padding: 1vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        .pregunta{
+            font-size: 1.3vw;
+        }
         .slogan{
             text-align: center;
+            font-size: 1.5vw;
         }
         .botones{
             display: flex;
@@ -419,8 +423,10 @@ footer{
         .botones button{
             background-color: white;
             border-radius: 20px;
+            margin-top: 1vw;
             padding: 0.5vw 1vw;
             border: solid gray 0vw;
+            font-size: 1.5vw;
         }
         .botones button:hover{
             background-color: $colorSecundario;
@@ -429,6 +435,66 @@ footer{
     }
  
 }
+
+@media (max-width: 1400px) {
+    .cartelInicial{
+        .inicial{
+            width: 30vw;
+            height: 15vw;
+            padding: 1vw;
+            .botones{
+                gap: 4vw;
+            }
+            .botones button{
+                padding: 1vw 2vw;
+            }
+        }
+     
+    }
+}
+
+@media (max-width: 1000px) {
+    .cartelInicial{
+        .inicial{
+            width: 35vw;
+            height: 20vw;
+            padding: 1vw;
+            .pregunta{
+                font-size: 2vw;
+            }
+            .slogan{
+                text-align: center;
+                font-size: 2.2vw;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .cartelInicial{
+        .botones button{
+            font-size: 2vw;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .cartelInicial{
+        .inicial{
+            width: 45vw;
+            height: 25vw;
+            padding: 1vw;
+            .pregunta{
+                font-size: 3vw;
+            }
+            .slogan{
+                text-align: center;
+                font-size: 3vw;
+            }
+        }
+    }
+}
+
 .agregarProducto{
     display: flex;
     justify-content: center;
